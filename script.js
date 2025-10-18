@@ -32,10 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (heroImage && heroText) {
         const images = [
-            '../kopi/img/home/mhome1.png',
-            '../kopi/img/home/mhome2.png',
-            '../kopi/img/home/mhome3.png',
-            '../kopi/img/home/mhome4.png'
+            '../img/home/mhome1.png',
+            '../img/home/mhome2.png',
+            '../img/home/mhome3.png',
+            '../img/home/mhome4.png'
         ];
         const texts = ['', '', '', ''];
         let currentIndex = 0;
@@ -57,4 +57,5 @@ document.addEventListener('DOMContentLoaded', () => {
         setInterval(changeHeroContent, 4000);
     }
 });
+
 
